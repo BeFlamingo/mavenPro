@@ -10,7 +10,7 @@ public class Hero {
 
     public static void main(String[] args) {
         System.out.println(new Hero().toString());
-        String d="2021-8-13 14:44:1";
+        String d="2021-8-13";
         Date date = DateUtil.parse(d);
         System.out.println(date);
     }
